@@ -1,0 +1,7 @@
+{% if feeds %}
+    <ul>
+        {% for feed in feeds %}
+        <li>{{feed.url}}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
